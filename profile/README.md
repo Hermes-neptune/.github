@@ -14,3 +14,28 @@ e nele um pequeno teclado para arduino e uma pequena tela LCD de arduino, no tec
 como o nome e quantos creditos ele possui, apos isto ira aparecer na pequena tela LCD o nome de usuario e os creditos disponiveis, logo abaixo aparecera uma pergunta "voce que jogar?sim:* Não:#" se o aluno clicar em 
 "sim" sera discontado de seus creditos a vez jogado por meio de uma API, apos a placa WeMos fara outra requisição a API puxando os dados atualizados do aluno  e fazendo todo o processo para liberar o credito novamente
 para o aluno. quando o aluno clicar em não serao apagados os dados do aluno da placa WeMos e retornara ao inicio do processo onde ela espera o aluno digitar seu RM(regtistro de Matricula)
+
+## 🤝 Colaboradores
+Agradecemos às seguintes pessoas que contribuíram para este projeto:
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/MTSmalow" title="Github do Eduardo">
+        <img src="https://avatars.githubusercontent.com/u/134291030?v=4" width="100px;" alt="Foto do Eduardo no GitHub"/><br>
+        <sub>
+          <b>Eduardo</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/RaffaEarth" title="Github do Rafael">
+        <img src="https://avatars.githubusercontent.com/u/133674172?v=4" width="100px;" alt="Foto do Rafael no Github"/><br>
+        <sub>
+          <b>Rafael</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
