@@ -1,13 +1,70 @@
-## Olá! Nos somos a equipe Hermes👋
+# 🎮 Projeto Hermes - Arcade Sustentável
 
-## Nosso Objetivo 
- Nosso projeto tem como objetivo trazer uma maior gama de entretenimento para os alunos durante o período livre na escola, como nos intervalos e até em eventos na instituição, e mesmo assim contribuir para o meio ambiente e para o arrecadamento de doações para os mais necessitados, onde os créditos que serão usados nos arcades serão dados de acordo com as doações dos alunos ou a contribuição nos projetos de reciclagem da instituição. 
+<div align="center">
 
+![GitHub](https://img.shields.io/badge/GitHub-Organization-blue?style=for-the-badge&logo=github)
+![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=for-the-badge)
 
-## Como ele será feito 
-Nosso projeto visa a reciclagem e o reaproveitamento de recursos, então, nossa intensão é reutilizar recursos que estariam sem uso ou que apresentam mau funcionamento para a construção de nosso arcades. Nossos controles possuirão botões padrões de arcade, mas o seu cabeamento será feito da placa de um teclado antigo, onde serão soldados fios na placa do teclado e eles serão conectados em cada botão. O sistema funcionara em um Notebook antigo, onde nele rodara os jogos e o servidor do projeto, neste notebook estará conectado a placa dos botões do arcade e uma placa WeMos D1 que funcionara como a "ficheiro" e nele um pequeno teclado para Arduino e uma pequena tela LCD de Arduino, no teclado o aluno ira digitar seu RM(Registro de Matricula) e o WeMos irá receber este número e ira puxar da API do projeto os dados do aluno, como o nome e quantos créditos ele possui, após isto ira aparecer na pequena tela LCD o nome de usuário e os créditos disponíveis, logo abaixo aparecera uma pergunta "você que jogar? Sim:* Não:#" se o aluno clicar em "sim" será descontado de seus créditos a vez jogado por meio de uma API, após a placa WeMos fara outra requisição a API puxando os dados atualizados do aluno e fazendo todo o processo para liberar o crédito novamente para o aluno. quando o aluno clicar em não serão apagados os dados do aluno da placa WeMos e retornara ao início do processo em que ela espera o aluno digitar seu RM (registro de Matrícula) 
+**Entretenimento + Sustentabilidade + Solidariedade**
+
+</div>
+
+---
+
+## 📋 Sobre o Projeto
+
+O **Projeto Hermes** é uma iniciativa inovadora que combina entretenimento, sustentabilidade e responsabilidade social. Desenvolvemos máquinas de arcade utilizando componentes reciclados, oferecendo aos alunos uma forma divertida de passar o tempo livre na escola, enquanto incentivamos a doação e a consciência ambiental.
+
+## 🎯 Objetivos
+
+- 🎮 **Entretenimento**: Proporcionar uma maior variedade de opções de lazer para os alunos durante intervalos e eventos escolares
+- ♻️ **Sustentabilidade**: Reaproveitar recursos eletrônicos que estariam sem uso ou com mau funcionamento
+- 🤝 **Solidariedade**: Arrecadar doações para os mais necessitados através de um sistema de créditos
+- 🌱 **Educação Ambiental**: Incentivar a participação em projetos de reciclagem da instituição
+
+## 🔧 Como Funciona
+
+### Sistema de Créditos
+Os alunos ganham créditos de duas formas:
+- Fazendo doações para causas sociais
+- Participando dos projetos de reciclagem da instituição
+
+### Arquitetura do Sistema
+
+O projeto utiliza componentes reciclados e reutilizados:
+
+#### Hardware
+- **Controles**: Botões padrões de arcade conectados à placa de um teclado antigo através de soldagem
+- **Computador**: Notebook antigo para rodar os jogos e o servidor
+- **Sistema de Autenticação**: Placa WeMos D1 conectada a:
+  - Teclado matricial Arduino
+  - Display LCD Arduino
+
+#### Fluxo de Funcionamento
+
+1. **Autenticação**: O aluno digita seu RM (Registro de Matrícula) no teclado
+2. **Consulta**: A placa WeMos consulta a API do projeto para buscar os dados do aluno
+3. **Exibição**: O display LCD mostra o nome do usuário e créditos disponíveis
+4. **Confirmação**: Sistema pergunta "Você quer jogar? Sim:* Não:#"
+   - **Sim**: Desconta um crédito via API e libera o jogo
+   - **Não**: Limpa os dados e retorna ao início
+5. **Atualização**: Após o jogo, atualiza os créditos do aluno
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Hardware**: Arduino, WeMos D1, componentes reciclados
+- **Software**: API REST para gerenciamento de usuários e créditos
+- **Interface**: Display LCD 16x2, Teclado Matricial
+
+## 📂 Estrutura do Repositório
+
+Este é o repositório `.github` da organização Hermes, contendo:
+- Perfil da organização
+- Documentação geral do projeto
+- Templates e workflows
 
 ## 🤝 Colaboradores
+
 Agradecemos às seguintes pessoas que contribuíram para este projeto:
 
 <table>
@@ -31,3 +88,26 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   </tr>
 </table>
 
+## 🚀 Como Contribuir
+
+1. Faça um fork do projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/MinhaFeature`)
+3. Commit suas mudanças (`git commit -m 'Adiciona nova feature'`)
+4. Push para a branch (`git push origin feature/MinhaFeature`)
+5. Abra um Pull Request
+
+## 📝 Licença
+
+Este projeto é de código aberto e está disponível para uso educacional.
+
+## 📞 Contato
+
+Para mais informações sobre o projeto, entre em contato com a equipe Hermes através da organização no GitHub.
+
+---
+
+<div align="center">
+
+♻️ Reciclando o Passado | 🎮 Criando o Futuro | 🤝 Ajudando o Próximo
+
+</div>
