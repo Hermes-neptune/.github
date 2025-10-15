@@ -108,8 +108,6 @@ Para mais informações sobre o projeto, entre em contato com a equipe Hermes at
 
 <div align="center">
 
-**Feito com ❤️ pela Equipe Hermes**
-
 ♻️ Reciclando o Passado | 🎮 Criando o Futuro | 🤝 Ajudando o Próximo
 
 </div>
