@@ -4,7 +4,6 @@
 
 ![GitHub](https://img.shields.io/badge/GitHub-Organization-blue?style=for-the-badge&logo=github)
 ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
 **Entretenimento + Sustentabilidade + Solidariedade**
 
@@ -99,7 +98,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
 
 ## 📝 Licença
 
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+Este projeto é de código aberto e está disponível para uso educacional.
 
 ## 📞 Contato
 
