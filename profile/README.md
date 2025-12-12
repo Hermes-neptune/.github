@@ -77,14 +77,6 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
         </sub>
       </a>
     </td>
-    <td align="center">
-      <a href="https://github.com/RaffaEarth" title="Github do Rafael">
-        <img src="https://avatars.githubusercontent.com/u/133674172?v=4" width="100px;" alt="Foto do Rafael no Github"/><br>
-        <sub>
-          <b>Rafael</b>
-        </sub>
-      </a>
-    </td>
   </tr>
 </table>
 
